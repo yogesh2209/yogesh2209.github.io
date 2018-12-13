@@ -26,6 +26,8 @@
 	text-align: center;
 }
 
-.video iframe {
-	align: center;
+
+.video {
+	margin-left: 30%;
+	margin-right: 25%;
 }
