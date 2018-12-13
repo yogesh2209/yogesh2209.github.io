@@ -1,0 +1,33 @@
+.custom_div h3 {
+	text-align: center;
+}
+
+.custom_div p {
+	text-align: center;
+}
+
+.custom_div h5 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+	color: grey;
+}
+
+
+.custom_div_index h3 {
+	text-align: left;
+}
+
+#title_website_h1 {
+	font-size: 60px;
+}
+
+.journey_div h1 {
+	text-align: center;
+}
+
+.video video {
+	 margin-left: auto;
+    margin-right: auto;
+    display: block
+}
