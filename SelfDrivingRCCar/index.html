@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Self driving RC Car</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- custom css file and google fonts-->
+    <link rel="stylesheet" type="text/css" href="custom/css/custom.css" />
+    <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css' /> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Russo+One" rel="stylesheet" />
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Self driving RC Car</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="post.html">Journey</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('custom/images/car_index_1.png')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+              <h1 id="title_website_h1">Autonomous RC Car</h1>
+              <span class="subheading">Big data and Computer vision application</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-preview">
+            <div class="custom_div_index">
+              <h2>Objective</h2>
+              <p>
+                The RC car will be modified in order to drive on its own with the help of a camera that will detect lanes and recognize objects on its path. The car will also have the capabilities of stopping before it crashes since it has a distance sensor on the front bumper.
+              </p> 
+          </div>
+          <hr>
+          <div class="custom_div_index">
+              <h2>Hardware</h2>
+              <ul>
+                <li>Any cheap RC Car will do</li>
+                <li>Raspberry Pi 3</li>
+                <li>Pi Camera</li>
+                <li>HC-SR04 Distance Sensor</li>
+                <li>L298N motor driver (H-Bridge)</li>
+                <li>Edimax wifi adapter</li> 
+                <li>Power bank (power source)</li> 
+                <li>Resistors and jumper wires</li> 
+              </ul>
+          </div>
+          <hr>
+          <div class="custom_div_index">
+              <h2>Software</h2>
+              <ul>
+                <li>Python 3.6</li>
+                <li>OpenCV</li>
+                <li>Framework/Libraries: Numpy, Scipy, PiSerial, Pandas, and many more</li>
+              </ul>
+          </div>
+          <hr>
+          <div class="custom_div_index">
+              <h2>Resources</h2>
+              <ul>
+                <li><a href="https://ieeexplore.ieee.org/abstract/document/990517">Rapid object detection using a boosted cascade of simple features ( Viola and Jones 2001)</a></li>
+                <li><a href="http://www.willberger.org/cascade-haar-explained/">Haar Cascade Explained</a></li>
+                <li><a href="https://www.raspberrypi.org/blog/self-driving-car/">Rasberry Pi Self Driving Car</a></li>
+              </ul>
+          </div>
+          <!-- Pager -->
+          <div class="clearfix">
+            <a class="btn btn-primary float-right" href="post.html">Our Journey &rarr;</a>
+          </div>
+         </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="video">
+     <iframe width="520" height="345" src="https://www.youtube.com/embed/eSgGgGBs1WM" align="center">
+    </iframe>
+     
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="https://github.com/yogesh2209/SDSUSelfdrivingRCCar">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p class="copyright text-muted">Copyright &copy; Self driving RC Car Team 2018</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+
+  </body>
+
+</html>
