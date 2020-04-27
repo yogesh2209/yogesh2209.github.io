@@ -1,0 +1,64 @@
+/*
+Code for contact fields - email and phone
+*/
+.contact_field_div img {
+  float: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 40px;
+  height: 40px;
+}
+.contact_field_div h3 {
+  position: relative;
+}
+.contact_field_div {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*
+Project details list styling
+*/
+
+.subheading_project_details {
+  color: gray;
+}
+
+.mb-5 {
+  font-size: 20px !important;
+}
+
+.project_details_list {
+
+    text-align: left;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.project_details_list li {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+/* Clearing classes */
+.clearing_class_30 {
+    clear: none;
+    min-height: 30px;
+}
+
+.clearing_class_60 {
+    clear: none;
+    min-height: 60px;
+}
+
+/* App Store Url anchor tag designing here */
+.app_store_link {
+  color: blue;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#profile_picture_id {
+    border-radius: 50%;
+}
